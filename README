@@ -1,0 +1,3 @@
+This example shows how to implement websocket in play framework 2.5
+
+To test the application, send the message: {"event": "note", "user": "participant", "content" : "hello"} to "ws://locahost:9000/socket/animator" and the websocket will respond with: {"content":"Receive the note : - hello - from user: participant"}
